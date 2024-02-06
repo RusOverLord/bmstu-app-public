@@ -1,0 +1,1 @@
+export 'widgets/bmstu_id_onboarding.dart' show showBmstuIdOnboardingDialog;

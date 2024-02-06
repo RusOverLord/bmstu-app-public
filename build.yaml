@@ -1,0 +1,11 @@
+targets:
+  $default:
+    builders:
+      freezed:freezed:
+        generate_for:
+          exclude:
+            - packages/**
+            - lib/src/**.freezed.dart
+      pubspec_generator:
+        options:
+          output: lib/src/constants/pubspec.yaml.g.dart

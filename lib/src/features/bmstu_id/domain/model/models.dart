@@ -1,0 +1,1 @@
+export 'bmstu_id.dart';
